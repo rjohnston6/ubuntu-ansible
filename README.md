@@ -20,6 +20,6 @@ Build the container:
 2. ```docker build -t <username>/ubuntu-ansible .```
 
 Run the container:
-```docker run -it -rm --mount type=bind,source="$(pwd)",target=projects/ <username/ubunut-ansible>```
+```docker run -it -rm --mount type=bind,source="$(pwd)",target=/projects <username/ubunut-ansible>```
 
 This will run the container mount the local directory to a directory name projects with in the container and move the context to the bash shell of the container. Upon exiting the container ```--rm``` flag will destroy and remove the container, adjust usage as required.
