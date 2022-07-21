@@ -1,5 +1,14 @@
+# Dockerfile to build a Ubuntu container using the latest image
+# Ansible is installed and can be used to run and install more modules
+# Mount the required directory or directories for playbooks
+#
+# AUTHOR(s): Zaphod Beeblebrox <zaphodbe@cisco.com>
+# CONTRIBUTOR(s): Arthur Dent <arthurde@cisco.com>
+#                 Ford Prefect <fordpref@cisco.com>
+#                 Slartibartfast <slartiba@cisco.com>
+
 FROM ubuntu:latest
-LABEL org.opencontainers.image.authors="Russell Johnston"
+LABEL org.cisco.authors="Russell Johnston <rujohns2@cisco.com>"
 LABEL version=0.1
 
 RUN apt-get update && \
