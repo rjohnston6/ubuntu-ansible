@@ -2,10 +2,7 @@
 # Ansible is installed and can be used to run and install more modules
 # Mount the required directory or directories for playbooks
 #
-# AUTHOR(s): Zaphod Beeblebrox <zaphodbe@cisco.com>
-# CONTRIBUTOR(s): Arthur Dent <arthurde@cisco.com>
-#                 Ford Prefect <fordpref@cisco.com>
-#                 Slartibartfast <slartiba@cisco.com>
+# AUTHOR(s): Russell Johnston <rujohns2@cisco.com>
 
 FROM ubuntu:latest
 LABEL org.cisco.authors="Russell Johnston <rujohns2@cisco.com>"
